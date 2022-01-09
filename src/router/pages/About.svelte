@@ -10,8 +10,8 @@
     <h1>ANDREA MOORE</h1>
     <p>
       I have worked as a defense attorney representing families throughout West
-      Kentucky for well over a decade. I also clerked for retired supreme court
-      justice Bill Cunningham when he was circuit judge and learned first hand
+      Kentucky for well over a decade. I also clerked for retired Supreme Court
+      Justice Bill Cunningham when he was Circuit Judge and learned first hand
       the type of judge I would like to be. I became concerned after covid hit
       when I saw many workers in the justice system leaving their positions to
       seek new opportunities. If we lose the dedicated men and women that make
