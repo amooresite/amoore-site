@@ -24,10 +24,10 @@
     </p>
     <p>
       I grew up in Calloway County, Kentucky. My granddad
-      owned the local singer sewing shop and my mother was employed by the US
+      owned the local Singer sewing shop and my mother was employed by the US
       postal service in Murray, while my father worked as an engineer on the
       river. I have two daughters, Savannah who loves gymnastics, and Saylor who
-      is into karate. My husband Lance Moore is a pharmacist at a local hospital
+      is into karate. My husband, Lance Moore, is a pharmacist at a local hospital
       and we live in his home county of Marshall in the small town of Possum Trot.
     </p>
   </div>
