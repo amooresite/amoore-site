@@ -14,51 +14,6 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container-two">
-    <img
-      alt="family photo"
-      src="https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/BDE7C856-E5B0-4180-A55B-97F5691AAA4B.jpeg?alt=media&token=04c66a17-83aa-40bb-ad6e-aa488c522528"
-    />
-  </div>
-
-  <div class="section-one-description">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nostrum
-      vitae. Fugiat commodi dolor assumenda ab! Quam, hic delectus non vel rem
-      eligendi laudantium nesciunt distinctio error ut provident ad.
-    </p>
-  </div>
-</section>
-
-<section class="section">
-  {#if isMobile}
-    <div class="container-two">
-      <img
-        alt="family photo"
-        src="https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/F5D3597A-510A-4AEE-9564-6AA71E41B336.jpeg?alt=media&token=bb66e657-58fc-478f-8b6f-c63c211f1819"
-      />
-    </div>
-  {/if}
-
-  <div class="section-one-description">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nostrum
-      vitae. Fugiat commodi dolor assumenda ab! Quam, hic delectus non vel rem
-      eligendi laudantium nesciunt distinctio error ut provident ad.
-    </p>
-  </div>
-
-  {#if !isMobile}
-    <div class="container-two">
-      <img
-        alt="family photo"
-        src="https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/F5D3597A-510A-4AEE-9564-6AA71E41B336.jpeg?alt=media&token=bb66e657-58fc-478f-8b6f-c63c211f1819"
-      />
-    </div>
-  {/if}
-</section>
-
 <section class="section empty">
   <p>Video content coming soon!</p>
 </section>

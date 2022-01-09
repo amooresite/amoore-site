@@ -14,7 +14,7 @@
 	<Router {routes}/>
 </main>
 
-<Footer/>
+<!-- <Footer/> -->
 
 <style>
 

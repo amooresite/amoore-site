@@ -1,17 +1,22 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from 'firebase/firestore';
+import { getAuth} from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCiCQG_yZBbu3fHDjMs46akETaGFKViEAw",
-  authDomain: "andrea-moore-site.firebaseapp.com",
-  projectId: "andrea-moore-site",
-  storageBucket: "andrea-moore-site.appspot.com",
-  messagingSenderId: "197839826273",
-  appId: "1:197839826273:web:11a6b43e32709c07c26920",
-  measurementId: "G-N0MRVV2NPJ"
+  apiKey: "AIzaSyDXdh9bRplRXelocILZ1973P91uqLGI_r8",
+  authDomain: "andrea-moore-d4354.firebaseapp.com",
+  projectId: "andrea-moore-d4354",
+  storageBucket: "andrea-moore-d4354.appspot.com",
+  messagingSenderId: "800936776870",
+  appId: "1:800936776870:web:3ef41a0580ebe62deb9067",
+  measurementId: "G-ELNEMWKKB9"
 };
+
 
 export const app = initializeApp(firebaseConfig);
 export const analytics = getAnalytics(app);
 export const db = getFirestore(app);
+export const auth = getAuth(app);
+
+
