@@ -14,10 +14,10 @@
       justice Bill Cunningham when he was circuit judge and learned first hand
       the type of judge I would like to be. I became concerned after covid hit
       when I saw many workers in the justice system leaving their positions to
-      seek new opportunities. If we lost the dedicated men and women that make
-      up our local justice system we all lose out i want to put the focus back
-      on these employees and do any and everything i can to assist them in
-      bringing forth justice to our community, I want to make their day to day
+      seek new opportunities. If we lose the dedicated men and women that make
+      up our local justice system we all lose out. I want to put the focus back
+      on these employees and do any and everything I can to assist them in
+      bringing forth justice to our community. I want to make their day to day
       work life better so the justice system can continue to function the way it
       should without high turnover due to these valuable people being overlooked
       and taken for granted.
