@@ -1,7 +1,6 @@
 <script>
   const images = [
     "https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/F5D3597A-510A-4AEE-9564-6AA71E41B336.jpeg?alt=media&token=bb66e657-58fc-478f-8b6f-c63c211f1819",
-    "https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/BDE7C856-E5B0-4180-A55B-97F5691AAA4B.jpeg?alt=media&token=5e99feff-1b32-46fa-9fff-59d4133507c8",
     "https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/landing.png?alt=media&token=4cb722dc-329e-4212-b3d0-8986e2aa1c81",
     "https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/IMG_6169.PNG?alt=media&token=268d63a7-5816-4cd2-b2e5-cc214e5fd3f9",
     "https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/am.png?alt=media&token=07090108-5d64-4268-af74-721ea0ee8280",

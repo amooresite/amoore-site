@@ -19,7 +19,7 @@
       <span class="burger-text">Menu</span>
     </button>
     <div class="logo">
-      <Logo />
+      <Logo fill="black"/>
     </div>
     <nav class="main-nav" id="main-nav" class:is-open={mobileNavOpen}>
       <ul>

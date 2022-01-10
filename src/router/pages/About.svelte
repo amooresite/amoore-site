@@ -1,10 +1,10 @@
 <div class="container">
-  <div class="image-wrapper">
+  <!-- <div class="image-wrapper">
     <img
       alt="Image"
       src="https://firebasestorage.googleapis.com/v0/b/andrea-moore-d4354.appspot.com/o/BDE7C856-E5B0-4180-A55B-97F5691AAA4B.jpeg?alt=media&token=5e99feff-1b32-46fa-9fff-59d4133507c8"
     />
-  </div>
+  </div> -->
 
   <div class="bio">
     <h1>ANDREA MOORE</h1>
