@@ -14,7 +14,7 @@ export default function Nav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box w={"100%"} h={"3.5em"} boxShadow={"lg"}>
+    <Box w={"100%"} h={"10vh"} boxShadow={"lg"}>
       <Flex
         w="85%"
         h="100%"
@@ -32,7 +32,7 @@ export default function Nav() {
           position={"relative"}
           color={"primary.500"}
           fontWeight={"semibold"}
-          fontSize={"xs"}
+          fontSize={"sm"}
           letterSpacing={"wider"}
           gap={"3em"}
           ml={["unset", "unset", "6em"]}
