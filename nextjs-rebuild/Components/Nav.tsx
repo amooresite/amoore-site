@@ -22,7 +22,7 @@ export default function Nav() {
         alignItems={"center"}
         justifyContent={["center", "center", "unset"]}
       >
-        <Box w={"9em"}>
+        <Box w={"150px"}>
           <MainLogo stroke="black" fill="black" subTextFill="white" />
         </Box>
 
@@ -32,7 +32,7 @@ export default function Nav() {
           position={"relative"}
           color={"primary.500"}
           fontWeight={"semibold"}
-          fontSize={"sm"}
+          fontSize={"md"}
           letterSpacing={"wider"}
           gap={"3em"}
           ml={["unset", "unset", "6em"]}
@@ -139,6 +139,7 @@ export default function Nav() {
                   <StlyedLink
                     color={"white"}
                     fontWeight="bold"
+                    fontSize={"xl"}
                     _hover={{ textDecoration: "none" }}
                     onClick={onClose}
                   >
