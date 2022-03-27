@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build-svelte": "cd svelte && npm run build",
-    "build-nextjs": "cd nextjs-rebuild && npm run build",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json"
