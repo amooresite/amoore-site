@@ -2,8 +2,8 @@ import { Box, Text } from "@chakra-ui/react";
 
 export default function About() {
   return (
-    <Box w={['90%', '90%', '70%']} mx='auto' fontSize={'sm'}>
-      <Text my='1em' textAlign={'center'} color={"primary.500"} fontSize={'xl'} fontWeight={'semibold'}>ANDREA MOORE</Text>
+    <Box w={['90%', '90%', '70%']} mx='auto' fontSize={'xl'}>
+      <Text my='1em' textAlign={'center'} color={"primary.500"} fontSize={'3xl'} fontWeight={'semibold'}>ANDREA MOORE</Text>
       <Text>
         I have worked as a defense attorney representing families throughout
         West Kentucky for well over a decade. I also clerked for retired Supreme

@@ -20,19 +20,19 @@ export default function Nav() {
         h="100%"
         mx="auto"
         alignItems={"center"}
-        justifyContent={["center", "center", "unset"]}
+        justifyContent={["center", "center", "center", "unset"]}
       >
-        <Box w={"150px"}>
+        <Box w={"12em"}>
           <MainLogo stroke="black" fill="black" subTextFill="white" />
         </Box>
 
         {/* Desktop nav items */}
         <Flex
-          display={["none", "none", "flex"]}
+          display={["none", "none", "none", "flex"]}
           position={"relative"}
           color={"primary.500"}
           fontWeight={"semibold"}
-          fontSize={"md"}
+          fontSize={"xl"}
           letterSpacing={"wider"}
           gap={"3em"}
           ml={["unset", "unset", "6em"]}
@@ -67,11 +67,11 @@ export default function Nav() {
         />
         <Flex
           flexDirection={"column"}
-          display={["flex", "flex", "none"]}
+          display={["flex", "flex", "flex", "none"]}
           position={"absolute"}
           right={"5%"}
-          w={"28px"}
-          h={"3px"}
+          w={"35px"}
+          h={"4px"}
           backgroundColor={"primary.500"}
           borderRadius={"3xl"}
           transition={"ease-in-out"}
@@ -79,18 +79,18 @@ export default function Nav() {
           _before={{
             content: '""',
             position: "absolute",
-            w: "28px",
-            h: "3px",
+            w: "35px",
+            h: "4px",
             backgroundColor: "primary.500",
-            top: "-8px",
+            top: "-10px",
           }}
           _after={{
             content: '""',
             position: "absolute",
-            w: "28px",
-            h: "3px",
+            w: "35px",
+            h: "4px",
             backgroundColor: "primary.500",
-            top: "8px",
+            top: "10px",
           }}
         />
 
@@ -139,7 +139,6 @@ export default function Nav() {
                   <StlyedLink
                     color={"white"}
                     fontWeight="bold"
-                    fontSize={"xl"}
                     _hover={{ textDecoration: "none" }}
                     onClick={onClose}
                   >

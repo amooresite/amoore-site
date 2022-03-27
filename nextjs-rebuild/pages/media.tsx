@@ -33,7 +33,7 @@ export default function Media() {
       <Text
         my="1em"
         color={"primary.500"}
-        fontSize={"xl"}
+        fontSize={"3xl"}
         fontWeight={"semibold"}
         letterSpacing={'wider'}
 
@@ -46,7 +46,7 @@ export default function Media() {
           return (
             <WrapItem
               key={i}
-              width={["150px", "150px", "200px"]}
+              width={["150px", "230px", "230px",  "250px"]}
               _hover={{ cursor: "pointer" }}
               onClick={createViewingImageUpdateAndDisplay(img)}
             >
@@ -61,7 +61,7 @@ export default function Media() {
       <Text
         my="1em"
         color={"primary.500"}
-        fontSize={"xl"}
+        fontSize={"3xl"}
         fontWeight={"semibold"}
         letterSpacing={'wider'}
       >
@@ -70,7 +70,7 @@ export default function Media() {
 
       <Wrap>
 
-          <Text fontSize={'lg'}>Video content coming soon!</Text>
+          <Text fontSize={'lg'} pb={'2em'}>Video content coming soon!</Text>
 
       </Wrap>
 

@@ -78,11 +78,11 @@ export default function Contact() {
         borderBottomRightRadius={["10%", "10%", "20%"]}
         pb={"5em"}
       >
-        <Box width={["95%", "85%", "50%"]} mx={"auto"}>
+        <Box width={["95%", "85%","70%", "60%"]} mx={"auto"}>
           <Text
             py="1em"
             color={"white"}
-            fontSize={"xl"}
+            fontSize={"3xl"}
             fontWeight={"semibold"}
           >
             CONTACT ME
@@ -93,7 +93,7 @@ export default function Contact() {
               <FormLabel color={"white"}>First Name</FormLabel>
               <Input
                 id="fname"
-                size={"sm"}
+                
                 backgroundColor={"white"}
                 onChange={createContactFieldUpdate("fname")}
                 value={contact.fname}
@@ -104,7 +104,6 @@ export default function Contact() {
               <FormLabel color={"white"}>Last Name</FormLabel>
               <Input
                 id="lname"
-                size={"sm"}
                 backgroundColor={"white"}
                 onChange={createContactFieldUpdate("lname")}
                 value={contact.lname}
@@ -118,7 +117,6 @@ export default function Contact() {
               <Input
                 id="email"
                 type={"email"}
-                size={"sm"}
                 backgroundColor={"white"}
                 onChange={createContactFieldUpdate("email")}
                 value={contact.email}
@@ -129,7 +127,6 @@ export default function Contact() {
               <FormLabel color={"white"}>Phone</FormLabel>
               <Input
                 id="phone"
-                size={"sm"}
                 backgroundColor={"white"}
                 onChange={createContactFieldUpdate("phone")}
                 value={contact.phone}
@@ -141,7 +138,6 @@ export default function Contact() {
             <FormLabel color={"white"}>Message</FormLabel>
             <Textarea
               id="message"
-              size={"sm"}
               backgroundColor={"white"}
               onChange={(e) => setMessage(e.target.value)}
             />
@@ -150,7 +146,6 @@ export default function Contact() {
           <Button
             my="1em"
             isFullWidth
-            size={"sm"}
             backgroundColor={"primary.800"}
             color={"white"}
             letterSpacing={"wide"}
@@ -196,7 +191,7 @@ export default function Contact() {
           <ModalContent alignItems={"center"}>
             <ModalHeader>Message Received!</ModalHeader>
             <ModalBody>
-              <Text size="sm">
+              <Text>
                 Thank you for contacting us. We have recieved your message.
               </Text>
             </ModalBody>
