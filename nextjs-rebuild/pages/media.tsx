@@ -17,7 +17,7 @@ import images from "../public/images";
 
 export default function Media() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [viewingImage, setViewingImage] = useState(images[0]);
+  const [viewingImage, setViewingImage] = useState({} as StaticImageData);
 
   const videos: Array<string> = [];
 
