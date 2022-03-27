@@ -139,6 +139,7 @@ export default function Nav() {
                   <StlyedLink
                     color={"white"}
                     fontWeight="bold"
+                    fontSize={"xl"}
                     _hover={{ textDecoration: "none" }}
                     onClick={onClose}
                   >

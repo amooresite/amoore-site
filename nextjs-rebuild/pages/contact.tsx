@@ -78,7 +78,7 @@ export default function Contact() {
         borderBottomRightRadius={["10%", "10%", "20%"]}
         pb={"5em"}
       >
-        <Box width={["95%", "85%","70%", "60%"]} mx={"auto"}>
+        <Box width={["90%", "85%","70%", "60%"]} mx={"auto"}>
           <Text
             py="1em"
             color={"white"}
